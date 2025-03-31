@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Webshop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Welkom bij Mijn Webshop</h1>
+    
+    <div id="products"></div>
+
+    <h2>Winkelwagen</h2>
+    <ul id="cart"></ul>
+
+    <h2>Laat een review achter</h2>
+    <form id="reviewForm">
+        <input type="text" id="reviewText" placeholder="Schrijf een review">
+        <button type="submit">Verzenden</button>
+    </form>
+
+    <h3>Reviews:</h3>
+    <ul id="reviews"></ul>
+
+    <h2>Stel een vraag</h2>
+    <form id="questionForm">
+        <input type="email" id="email" placeholder="Jouw e-mail" required>
+        <input type="text" id="questionText" placeholder="Jouw vraag" required>
+        <button type="submit">Versturen</button>
+    </form>
+
+    <h3>Gestelde vragen:</h3>
+    <ul id="questions"></ul>
+
+    <p><a href="admin.html">Ga naar admin-paneel</a></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Gaming Laptop",
+        "price": 1299.99,
+        "description": "Krachtige laptop met RTX 3070",
+        "image": "https://via.placeholder.com/150"
+    },
+    {
+        "id": 2,
+        "name": "Mechanisch Toetsenbord",
+        "price": 99.99,
+        "description": "RGB mechanisch toetsenbord",
+        "image": "https://via.placeholder.com/150"
+    }
+]

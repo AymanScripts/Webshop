@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Paneel</title>
+</head>
+<body>
+    <h1>Admin Paneel</h1>
+    <button onclick="approveReviews()">Keur alle reviews goed</button>
+    <script>
+        function approveReviews() {
+            let reviews = JSON.parse(localStorage.getItem("reviews")) || [];
+            reviews = reviews.map(r => ({ ...r, approved: true }));
+            localStorage.setItem("reviews", JSON.stringify(reviews));
+            alert("Alle reviews zijn goedgekeurd!");
+        }
+    </script>
+</body>
+</html>
